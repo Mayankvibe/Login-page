@@ -1,0 +1,44 @@
+body{
+    background-color:rgb(201, 137, 191);
+    
+}
+h2{ text-align: center;
+   
+}
+
+input{
+   
+    border: 2px solid rgb(17, 18, 18);   
+    padding: 8px;
+    border-radius: 6px;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    width: 120px;
+    height: 37px;
+    border-radius: 12px;
+}
+form{
+    text-align: center;
+    padding: 10px;
+}
+#contact{
+    margin-right: 25px;
+}
+.top{
+    font-size: 35px;
+    background-color: black;
+}
+.card{border-radius: 14px;
+    margin: 120px auto;
+    background-color: rgb(255, 198, 198);
+    width: 340px;
+    height: 350px;
+}
+.flash{
+    font-size: 15px;
+    color:rgb(60, 150, 60);
+    text-align: center;
+    
+}
