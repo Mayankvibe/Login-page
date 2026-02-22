@@ -1,0 +1,18 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Data_edit</title>
+    </head>
+    <body>
+            <form action="/update/{{ edit_data.id }}" method="POST" >
+        <h2 >USER EDIT </h2>
+        <label for="name">NAME:-</label>
+        <input type="text" name="name" placeholder="ENTER NAME" id="name" ><br><br>
+        <label for="email">EMAIL:-</label>
+        <input type="text" name="email" placeholder="ENTER EMAIL" id="email" ><br><br>
+        <label for="contact">CONTACT:-</label>
+        <input type="text" name="contact" placeholder="ENTER CONTACT" id="contact" ><br><br>
+
+            <button type="submit">Update</button></form>
+    </body>
+</html>

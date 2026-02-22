@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>All Users
+        </title>
+    </head>
+    <body>
+       
+
+        {% for u in users %}
+        <p> {{u.id}}.<br>
+            Name:{{u.name}}<br>
+            Email:{{u.email}}<br>
+            Contact:{{u.contact}}<br>
+            <form action="/delete/{{u.id}}" method="POST" >
+            <button type="submit">Delete</button> </form>
+            <form action="/edit/{{u.id}}"method="POST"  >
+            <button type="submit">Edit</button>
+        </form>
+        <hr>
+        </p>
+        {% endfor %}
+    </body>
+</html>
